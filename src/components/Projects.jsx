@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import Kinterak_Img from "../assets/project/Kinterak.png";
 import Tenzies_Img from "../assets/project/Tenzies.png";
+import Promptopia_Img from "../assets/project/Promptopia.png";
+import Workout_Img from "../assets/project/Workout.png";
 import {
   FaGraduationCap,
   FaBloggerB,
@@ -9,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { BiLibrary } from "react-icons/bi";
 import { MdLocalHospital, MdViewModule } from "react-icons/md";
+
 
 export const Projects = () => {
   useEffect(() => {
@@ -52,6 +55,28 @@ export const Projects = () => {
         >
           <img
             src={Tenzies_Img}
+            alt="Tenzies"
+            className="rounded-lg hover:opacity-70 duration-200 ease-linear"
+          />
+        </a>
+        <a
+          href="https://promptopia-ten-hazel.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={Promptopia_Img}
+            alt="Tenzies"
+            className="rounded-lg hover:opacity-70 duration-200 ease-linear"
+          />
+        </a>
+        <a
+          href="https://workout-app-frontend-ten.vercel.app/login"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={Workout_Img}
             alt="Tenzies"
             className="rounded-lg hover:opacity-70 duration-200 ease-linear"
           />
