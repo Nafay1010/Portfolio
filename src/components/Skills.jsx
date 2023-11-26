@@ -30,39 +30,47 @@ export const Skills = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2 style={{marginBottom: '150px'}}>Skills</h2>
+                    <div className="skill-bx wow zoomIn my-5">
+                        <h2 className="my-10">Skills</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
+                        <div className="item">
                                 <img src={meter1} alt="Skill 1" />
+                                <h5>NEXT JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Skill 2" />
                                 <h5>MERN Stack</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Skill 2" />
-                                <h5>Mobile App Development</h5>
+                                <img src={meter2} alt="Skill 3" />
+                                <h5>React Native</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Skill 3" />
+                                <img src={meter2} alt="Skill 3" />
+                                <h5>Java</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Skill 4" />
                                 <h5>Laravel</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Skill 4" />
+                                <img src={meter3} alt="Skill 5" />
                                 <h5>Machine Learning</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Skill 4" />
+                                <img src={meter2} alt="Skill 6" />
                                 <h5>Data Science</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Skill 4" />
+                                <img src={meter3} alt="Skill 7" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Skill 4" />
+                                <img src={meter3} alt="Skill 8" />
                                 <h5>MySQL/NOSQL Database Management</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Skill 4" />
+                                <img src={meter2} alt="Skill 9" />
                                 <h5>Graphic Designing</h5>
                             </div>
                         </Carousel>

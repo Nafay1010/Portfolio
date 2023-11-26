@@ -14,8 +14,8 @@ export const Experience = () =>{
             <h1 style={{textAlign:"center", marginBottom:"50px", marginTop:"50px"}}>Experience</h1>
             <VerticalTimeline lineColor="#f2f2f2" animate={true}>
                 <VerticalTimelineElement className="vertical-timeline-element--education" position={"right"} contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }} iconStyle={{background:"#f2f2f2", color:"black"}} icon={<FaReact/>}>
-                    <h3 style={{color:"black"}}>MERN Stack & React Framework</h3>
-                    <p style={{color:"black"}}>Experienced with building AI Based MERN Stack Web Application.</p>
+                    <h3 style={{color:"black"}}>NEXTJS 14 & MERN Stack</h3>
+                    <p style={{color:"black"}}>Experienced with building AI Based MERN Stack and NEXTJS 14 Web Apps.</p>
                     <p style={{color:"black"}}>Database administration and website design</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>

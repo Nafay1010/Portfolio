@@ -4,7 +4,6 @@ import NavBar from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import {MetaCertification} from './components/MetaCertification';
 import { Skills } from "./components/Skills";
-import { AboutMe } from "./components/AboutMe";
 import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
 import { Contact } from "./components/Contact";
@@ -18,7 +17,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <Skills />
       <MetaCertification/>
       <Education/>

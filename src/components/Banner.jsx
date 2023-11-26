@@ -60,7 +60,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Whats Up!</span>
+                  <span className="tagline mt-3">Whats Up!</span>
                   <h1>
                     My name is <span className="name">Abdul Nafay</span> and I am a{" "}
                     <span className="txt-rotate" dataPeriod="1000" data-rotate='["AI Based Web Designer/Developer", "Mobile App Designer/Developer", "Data Analyst", "UI/UX Designer"]'>
