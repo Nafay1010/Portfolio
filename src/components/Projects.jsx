@@ -4,6 +4,7 @@ import Kinterak_Img from "../assets/project/Kinterak.png";
 import Tenzies_Img from "../assets/project/Tenzies.png";
 import Promptopia_Img from "../assets/project/Promptopia.png";
 import Workout_Img from "../assets/project/Workout.png";
+import Coffee_Shop_Img from '../assets/project/Coffee_Shop.png'
 import {
   FaGraduationCap,
   FaBloggerB,
@@ -60,6 +61,17 @@ export const Projects = () => {
           />
         </a>
         <a
+          href="https://coffee-website-delta.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={Coffee_Shop_Img}
+            alt="Coffee_Shop"
+            className="rounded-lg hover:opacity-70 duration-200 ease-linear"
+          />
+        </a>
+        {/* <a
           href="https://promptopia-ten-hazel.vercel.app/"
           target="_blank"
           rel="noreferrer"
@@ -69,8 +81,8 @@ export const Projects = () => {
             alt="Tenzies"
             className="rounded-lg hover:opacity-70 duration-200 ease-linear"
           />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://workout-app-frontend-ten.vercel.app/login"
           target="_blank"
           rel="noreferrer"
@@ -80,7 +92,7 @@ export const Projects = () => {
             alt="Tenzies"
             className="rounded-lg hover:opacity-70 duration-200 ease-linear"
           />
-        </a>
+        </a> */}
       </div>
       </Container>
       <Container>
