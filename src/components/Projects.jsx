@@ -2,9 +2,10 @@ import { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import Kinterak_Img from "../assets/project/Kinterak.png";
 import Tenzies_Img from "../assets/project/Tenzies.png";
-import Promptopia_Img from "../assets/project/Promptopia.png";
-import Workout_Img from "../assets/project/Workout.png";
-import Coffee_Shop_Img from '../assets/project/Coffee_Shop.png'
+import Triform_Img from "../assets/project/Triform.png";
+import Tobre_Img from "../assets/project/Tobre.png";
+import Coffee_Shop_Img from "../assets/project/Coffee_Shop.png";
+import { MdOutlineDateRange } from "react-icons/md";
 import {
   FaGraduationCap,
   FaBloggerB,
@@ -12,7 +13,6 @@ import {
 } from "react-icons/fa";
 import { BiLibrary } from "react-icons/bi";
 import { MdLocalHospital, MdViewModule } from "react-icons/md";
-
 
 export const Projects = () => {
   useEffect(() => {
@@ -38,62 +38,153 @@ export const Projects = () => {
     };
   }, []);
   return (
-    <section className="projects" id="projects">
+    <section className="mt-10 projects" id="projects">
       <Container>
-      <h1>Live Projects</h1>
-      <div className="grid md:grid-cols-2 grid-cols-1 place-content-center gap-4 my-5">
-        <a href="https://kinterak.com/" target="_blank" rel="noreferrer">
-          <img
-            src={Kinterak_Img}
-            alt="Kinterak"
-            className="rounded-lg hover:opacity-70 duration-200 ease-linear"
-          />
-        </a>
-        <a
-          href="https://tenzies-project-olive.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={Tenzies_Img}
-            alt="Tenzies"
-            className="rounded-lg hover:opacity-70 duration-200 ease-linear"
-          />
-        </a>
-        <a
-          href="https://coffee-website-delta.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={Coffee_Shop_Img}
-            alt="Coffee_Shop"
-            className="rounded-lg hover:opacity-70 duration-200 ease-linear"
-          />
-        </a>
-        {/* <a
-          href="https://promptopia-ten-hazel.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={Promptopia_Img}
-            alt="Tenzies"
-            className="rounded-lg hover:opacity-70 duration-200 ease-linear"
-          />
-        </a> */}
-        {/* <a
-          href="https://workout-app-frontend-ten.vercel.app/login"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={Workout_Img}
-            alt="Tenzies"
-            className="rounded-lg hover:opacity-70 duration-200 ease-linear"
-          />
-        </a> */}
-      </div>
+        <h1 className="mb-10">Live Projects</h1>
+        <div className="grid grid-cols-1 gap-4 m-1 lg:grid-cols-2 place-items-center">
+          <a href="https://kinterak.com/" target="_blank" rel="noreferrer">
+            <img
+              src={Kinterak_Img}
+              alt="Kinterak"
+              className="my-4 duration-200 ease-linear rounded-lg hover:opacity-70"
+            />
+          </a>
+          <div className="space-y-2">
+            <h6 className="flex items-center text-lg gap-x-1">
+              {" "}
+              <span>
+                <MdOutlineDateRange size={25} className="relative bottom-0.5" />
+              </span>
+              August 2023 - Current
+            </h6>
+            <p>
+              A bearevment services platform which brings comfort and closure to
+              your loved ones after you have passed away by allowing them to
+              have interactive conversations with recordings of you.
+            </p>
+          </div>
+          <div className="hidden space-y-2 lg:block">
+            <h6 className="flex items-center text-lg gap-x-1">
+              {" "}
+              <span>
+                <MdOutlineDateRange size={25} className="relative bottom-0.5" />
+              </span>
+              March 2024 - Current
+            </h6>
+            <p>
+              A DevOps platform for your Python based LLM-implementations. We
+              are committed to making scalable AI-implementation, integration
+              and orchestration available for everyone. Join us in our
+              alfa-testing and start exploring the simplicity of AI-integration!
+            </p>
+          </div>
+          <a href="https://movs.ai/" target="_blank" rel="noreferrer">
+            <img
+              src={Triform_Img}
+              alt="Triform"
+              className="my-4 duration-200 ease-linear rounded-lg hover:opacity-70"
+            />
+          </a>
+          <div className="space-y-2 lg:hidden">
+            <h6 className="flex items-center text-lg gap-x-1">
+              {" "}
+              <span>
+                <MdOutlineDateRange size={25} className="relative bottom-0.5" />
+              </span>
+              March 2024 - Current
+            </h6>
+            <p>
+              A DevOps platform for your Python based LLM-implementations. We
+              are committed to making scalable AI-implementation, integration
+              and orchestration available for everyone. Join us in our
+              alfa-testing and start exploring the simplicity of AI-integration!
+            </p>
+          </div>
+          <a href="https://tobrecards.com/" target="_blank" rel="noreferrer">
+            <img
+              src={Tobre_Img}
+              alt="Tobre"
+              className="my-4 duration-200 ease-linear rounded-lg hover:opacity-70"
+            />
+          </a>
+          <div className="space-y-2">
+            <h6 className="flex items-center text-lg gap-x-1">
+              {" "}
+              <span>
+                <MdOutlineDateRange size={25} className="relative bottom-0.5" />
+              </span>
+              Nov 2023 - Current
+            </h6>
+            <p>
+              An AI based platform which generates personalized greeting cards
+              for every occasion. It uses AI to generate the best possible cards
+              for your recipients based on their preferences.
+            </p>
+          </div>
+          <div className="hidden space-y-2 lg:block">
+            <h6 className="flex items-center text-lg gap-x-1">
+              {" "}
+              <span>
+                <MdOutlineDateRange size={25} className="relative bottom-0.5" />
+              </span>
+              August 2022 - Oct 2022
+            </h6>
+            <p>
+              A coffee shop website made for a client's startup. It is a UI
+              design project that I made for a client from scratch using Figma
+              and then implemented it in React and Tailwind CSS.
+            </p>
+          </div>
+          <a
+            href="https://coffee-website-delta.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={Coffee_Shop_Img}
+              alt="Coffee_Shop"
+              className="my-4 duration-200 ease-linear rounded-lg hover:opacity-70"
+            />
+          </a>
+          <div className="space-y-2 lg:hidden">
+            <h6 className="flex items-center text-lg gap-x-1">
+              {" "}
+              <span>
+                <MdOutlineDateRange size={25} className="relative bottom-0.5" />
+              </span>
+              August 2022 - Oct 2022
+            </h6>
+            <p>
+              A coffee shop website made for a client's startup. It is a UI
+              design project that I made for a client from scratch using Figma
+              and then implemented it in React and Tailwind CSS.
+            </p>
+          </div>
+          <a
+            href="https://tenzies-project-olive.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={Tenzies_Img}
+              alt="Tenzies"
+              className="my-4 duration-200 ease-linear rounded-lg hover:opacity-70"
+            />
+          </a>
+          <div className="space-y-2">
+            <h6 className="flex items-center text-lg gap-x-1">
+              {" "}
+              <span>
+                <MdOutlineDateRange size={25} className="relative bottom-0.5" />
+              </span>
+              Dec 2022 - Jan 2023
+            </h6>
+            <p>
+              A small game for a client. It is a simple game where you have to
+              roll until all the numbers are same. This game is made with React.
+            </p>
+          </div>
+        </div>
       </Container>
       <Container>
         <h1>Other Projects</h1>
@@ -106,9 +197,7 @@ export const Projects = () => {
             <div className="card">
               <div className="card-content">
                 <div className="card-image">
-                  <FaGraduationCap
-                    style={{ width: "100%", height: "100%", color: "#f2f2f2" }}
-                  />
+                  <FaGraduationCap color="#f2f2f2" size={100} />
                 </div>
                 <div className="card-info-wrapper">
                   <div className="card-info">
@@ -132,9 +221,7 @@ export const Projects = () => {
             <div className="card">
               <div className="card-content">
                 <div className="card-image">
-                  <FaChalkboardTeacher
-                    style={{ width: "80%", height: "80%", color: "#f2f2f2" }}
-                  />
+                  <FaChalkboardTeacher color="#f2f2f2" size={80} />
                 </div>
                 <div className="card-info-wrapper">
                   <div className="card-info">
@@ -158,9 +245,7 @@ export const Projects = () => {
             <div className="card">
               <div className="card-content">
                 <div className="card-image">
-                  <BiLibrary
-                    style={{ width: "100%", height: "100%", color: "#f2f2f2" }}
-                  />
+                  <BiLibrary color="#f2f2f2" size={100} />
                 </div>
                 <div className="card-info-wrapper">
                   <div className="card-info">
@@ -183,9 +268,7 @@ export const Projects = () => {
             <div className="card">
               <div className="card-content">
                 <div className="card-image">
-                  <MdLocalHospital
-                    style={{ width: "100%", height: "100%", color: "#f2f2f2" }}
-                  />
+                  <MdLocalHospital color="#f2f2f2" size={100} />
                 </div>
                 <div className="card-info-wrapper">
                   <div className="card-info">
@@ -209,9 +292,7 @@ export const Projects = () => {
             <div className="card">
               <div className="card-content">
                 <div className="card-image">
-                  <MdViewModule
-                    style={{ width: "100%", height: "100%", color: "#f2f2f2" }}
-                  />
+                  <MdViewModule color="#f2f2f2" size={100} />
                 </div>
                 <div className="card-info-wrapper">
                   <div className="card-info">
@@ -235,9 +316,7 @@ export const Projects = () => {
             <div className="card">
               <div className="card-content">
                 <div className="card-image">
-                  <FaBloggerB
-                    style={{ width: "80%", height: "80%", color: "#f2f2f2" }}
-                  />
+                  <FaBloggerB color="#f2f2f2" size={80} />
                 </div>
                 <div className="card-info-wrapper">
                   <div className="card-info">
