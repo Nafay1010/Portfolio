@@ -42,7 +42,7 @@ export const Projects = () => {
       <Container>
         <h1 className="mb-10">Live Projects</h1>
         <div className="grid grid-cols-1 gap-4 m-1 lg:grid-cols-2 place-items-center">
-          <a href="https://movs.ai/" target="_blank" rel="noreferrer">
+          <a href="https://triform.ai/" target="_blank" rel="noreferrer">
             <img
               src={Triform_Img}
               alt="Triform"
