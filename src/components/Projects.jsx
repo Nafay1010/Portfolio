@@ -42,27 +42,13 @@ export const Projects = () => {
       <Container>
         <h1 className="mb-10">Live Projects</h1>
         <div className="grid grid-cols-1 gap-4 m-1 lg:grid-cols-2 place-items-center">
-          <a href="https://kinterak.com/" target="_blank" rel="noreferrer">
+          <a href="https://movs.ai/" target="_blank" rel="noreferrer">
             <img
-              src={Kinterak_Img}
-              alt="Kinterak"
+              src={Triform_Img}
+              alt="Triform"
               className="my-4 duration-200 ease-linear rounded-lg hover:opacity-70"
             />
           </a>
-          <div className="space-y-2">
-            <h6 className="flex items-center text-lg gap-x-1">
-              {" "}
-              <span>
-                <MdOutlineDateRange size={25} className="relative bottom-0.5" />
-              </span>
-              August 2023 - Current
-            </h6>
-            <p>
-              A bearevment services platform which brings comfort and closure to
-              your loved ones after you have passed away by allowing them to
-              have interactive conversations with recordings of you.
-            </p>
-          </div>
           <div className="hidden space-y-2 lg:block">
             <h6 className="flex items-center text-lg gap-x-1">
               {" "}
@@ -78,10 +64,25 @@ export const Projects = () => {
               alfa-testing and start exploring the simplicity of AI-integration!
             </p>
           </div>
-          <a href="https://movs.ai/" target="_blank" rel="noreferrer">
+
+          <div className="space-y-2">
+            <h6 className="flex items-center text-lg gap-x-1">
+              {" "}
+              <span>
+                <MdOutlineDateRange size={25} className="relative bottom-0.5" />
+              </span>
+              August 2023 - Current
+            </h6>
+            <p>
+              A bearevment services platform which brings comfort and closure to
+              your loved ones after you have passed away by allowing them to
+              have interactive conversations with recordings of you.
+            </p>
+          </div>
+          <a href="https://kinterak.com/" target="_blank" rel="noreferrer">
             <img
-              src={Triform_Img}
-              alt="Triform"
+              src={Kinterak_Img}
+              alt="Kinterak"
               className="my-4 duration-200 ease-linear rounded-lg hover:opacity-70"
             />
           </a>
