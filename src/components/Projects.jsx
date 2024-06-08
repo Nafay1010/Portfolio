@@ -13,6 +13,7 @@ import {
 } from "react-icons/fa";
 import { BiLibrary } from "react-icons/bi";
 import { MdLocalHospital, MdViewModule } from "react-icons/md";
+import { TbMessageChatbot } from "react-icons/tb";
 
 export const Projects = () => {
   useEffect(() => {
@@ -55,7 +56,7 @@ export const Projects = () => {
               <span>
                 <MdOutlineDateRange size={25} className="relative bottom-0.5" />
               </span>
-              March 2024 - Current
+              March 2024 - Present
             </h6>
             <p>
               A DevOps platform for your Python based LLM-implementations. We
@@ -71,7 +72,7 @@ export const Projects = () => {
               <span>
                 <MdOutlineDateRange size={25} className="relative bottom-0.5" />
               </span>
-              August 2023 - Current
+              June 2023 - Present
             </h6>
             <p>
               A bearevment services platform which brings comfort and closure to
@@ -114,7 +115,7 @@ export const Projects = () => {
               <span>
                 <MdOutlineDateRange size={25} className="relative bottom-0.5" />
               </span>
-              Nov 2023 - Current
+              Nov 2023 - April 2024
             </h6>
             <p>
               An AI based platform which generates personalized greeting cards
@@ -215,6 +216,30 @@ export const Projects = () => {
             </div>
           </a>
           <a
+            href="https://github.com/Nafay1010/Blog-Junction"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="card">
+              <div className="card-content">
+                <div className="card-image">
+                  <TbMessageChatbot color="#f2f2f2" size={80} />
+                </div>
+                <div className="card-info-wrapper">
+                  <div className="card-info">
+                    <div className="card-info-title">
+                      <h3>User-Trained Chatbot</h3>
+                      <h4>
+                        Developed using NEXTJS 13 powered by Llama Index &
+                        GPT-4 Model.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
             href="https://github.com/Nafay1010/Miniflex"
             target="_blank"
             rel="noreferrer"
@@ -302,29 +327,6 @@ export const Projects = () => {
                       <h4>
                         Custom Research & Development Module made with Odoo
                         Framework.
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://github.com/Nafay1010/Blog-Junction"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="card">
-              <div className="card-content">
-                <div className="card-image">
-                  <FaBloggerB color="#f2f2f2" size={80} />
-                </div>
-                <div className="card-info-wrapper">
-                  <div className="card-info">
-                    <div className="card-info-title">
-                      <h3>Blog Junction</h3>
-                      <h4>
-                        A MERN Stack blogging website made with redux toolkit{" "}
                       </h4>
                     </div>
                   </div>
