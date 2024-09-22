@@ -62,7 +62,7 @@ export const Contact = () => {
 
   return (
     <section className="contact" id="connect">
-      <Row className="justify-content-md-center px-10">
+      <Row className="px-10 justify-content-md-center">
         <Col xs lg={5}>
           <TrackVisibility>
             {({ isVisible }) => (
@@ -148,7 +148,7 @@ export const Contact = () => {
             )}
           </TrackVisibility>
         </Col>
-        <Col lg lg={5}>
+        <Col lg={5}>
           <Container>
             <ComposableMap
               projection="geoAzimuthalEqualArea"
@@ -175,7 +175,7 @@ export const Contact = () => {
                 dx={-90}
                 dy={-30}
                 connectorProps={{
-                  stroke: "#FF5533",
+                  stroke: "#ff83b9",
                   strokeWidth: 3,
                   strokeLinecap: "round",
                 }}
@@ -184,7 +184,7 @@ export const Contact = () => {
                   x="-8"
                   textAnchor="end"
                   alignmentBaseline="middle"
-                  fill="#F53"
+                  fill="#ff83b9"
                 >
                   {"Pakistan"}
                 </text>

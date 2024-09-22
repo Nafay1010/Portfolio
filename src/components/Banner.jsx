@@ -13,10 +13,10 @@ export const Banner = () => {
 
   useEffect(() => {
     let toRotate = [
-      "Next.js Web Developer.",
-      "Laravel Web Developer.",
-      "UI/UX Designer.",
-      "Database Administrator.",
+      "Full Stack Web Development.",
+      "Python Automation.",
+      "UI/UX Designing.",
+      "Database Administration.",
     ];
     let ticker = setInterval(() => {
       let i = loopNum % toRotate.length;
@@ -74,15 +74,11 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="mt-3 tagline">Whats Up!</span>
+                  <span className="mt-3 tagline">Hello!</span>
                   <h1>
-                    My name is <span className="name">Abdul Nafay</span> and I
-                    am a{" "}
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='["AI Based Web Designer/Developer", "Mobile App Designer/Developer", "Data Analyst", "UI/UX Designer"]'
-                    >
+                    I am <span className="name">Abdul Nafay</span> and I
+                    specialize in{" "}
+                    <span className="txt-rotate" dataPeriod="1000">
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>

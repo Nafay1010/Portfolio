@@ -22,7 +22,7 @@
     }
 
     .image-container img {
-      border: 2px solid #c939e2;
+      border: 2px solid #f3b8ff;
       width: 100%;
       /* Ensures the image fills the container */
       height: 100%;
@@ -285,7 +285,7 @@
 
 
     .name{
-      color: #ff7e21;
+      color: #ff5aa2;
       font-weight: 600;
     }
 
@@ -328,7 +328,7 @@
         }
     
         .card {
-          background-color: rgba(255, 255, 255, 0.09);
+          background-color: rgba(253, 253, 253, 0.09);
           border-radius: 10px;
           cursor: pointer;
           display: flex;
@@ -653,9 +653,9 @@
     }
 
     .txt-rotate>.wrap {
-      color: #ff7e21;
+      color: #ff5aa2;
       font-weight: 600;
-      border-right: 0.08em solid #666;
+      border-right: 0.08em solid #ffffff;
     }
 
     /************ Skills Css ************/
@@ -905,7 +905,7 @@
     
     .contact form button {
       font-weight: 700;
-      color: #ff7e21;
+      color:#ff83b9;
       background-color: white;
       padding: 14px 48px;
       font-size: 18px;
@@ -921,8 +921,8 @@
     }
 
     .contact form button:hover{
-      background-color: #151515;
-      color: #ff7e21;
+      background-color: #ff83b9;
+      color: white;
       transition: 0.1s ease-in-out;
     }
         .contact .justify-content-md-center {
