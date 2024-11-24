@@ -31,9 +31,9 @@ export const Experience = () => {
             iconStyle={{ background: "#f2f2f2", color: "black" }}
             icon={<FaReact />}
           >
-            <h3 style={{ color: "black" }}>Next.js 15 | MERN Stack</h3>
+            <h3 style={{ color: "black" }}>Next.js 15 | MERN Stack | Sveltekit</h3>
             <p style={{ color: "black" }}>
-              Experienced with building AI Based Full Stack Web
+              Experienced with building AI Based, e-commerce or SaaS based Web
               Applications.
             </p>
             <p style={{ color: "black" }}>

@@ -230,7 +230,7 @@ export const Projects = () => {
                     <div className="card-info-title">
                       <h3>User-Trained Chatbot</h3>
                       <h4>
-                        Developed using NEXTJS 13 powered by Llama Index & GPT-4
+                        Developed using NEXTJS 15 powered by Llama Index & GPT-4
                         Model.
                       </h4>
                     </div>
