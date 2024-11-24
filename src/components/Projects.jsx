@@ -102,13 +102,11 @@ export const Projects = () => {
               alfa-testing and start exploring the simplicity of AI-integration!
             </h6>
           </div>
-          <a href="https://tobrecards.com/" target="_blank" rel="noreferrer">
             <img
               src={Tobre_Img}
               alt="Tobre"
-              className="my-4 duration-200 ease-linear rounded-lg hover:opacity-70"
+              className="my-4 ease-linear rounded-lg"
             />
-          </a>
           <div className="space-y-2">
             {/* <h6 className="flex items-center text-lg gap-x-1">
               {" "}
