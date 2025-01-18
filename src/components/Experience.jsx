@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FaLinux } from "react-icons/fa";
-import { FaLaravel } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
 import { GrStorage } from "react-icons/gr";
 import { TbBinaryTree } from "react-icons/tb";
 import { FaPython } from "react-icons/fa";
@@ -67,10 +67,35 @@ export const Experience = () => {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
-        <VerticalTimeline lineColor="#f2f2f2" animate={true}>
+        <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             position={"right"}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            iconStyle={{ background: "#f2f2f2", color: "black" }}
+            icon={<FaDocker />}
+          >
+            <h3 style={{ color: "black" }}>DevOps | Docker</h3>
+            <h5 style={{ color: "grey", fontSize: "1rem", marginTop: "5px" }}>
+              Docker | Kubernetes | Jenkins | CI/CD
+            </h5>
+            <p style={{ color: "black" }}>
+              Expertise in containerization using Docker and orchestration with
+              Kubernetes.
+            </p>
+            <p style={{ color: "black" }}>
+              Setting up CI/CD pipelines using Jenkins, GitHub Actions, and
+              similar tools.
+            </p>
+            <p style={{ color: "black" }}>
+              Managing cloud deployments, monitoring, and scaling applications.
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
+        <VerticalTimeline lineColor="#f2f2f2" animate={true}>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            position={"left"}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             iconStyle={{ background: "#f2f2f2", color: "black" }}
             icon={<FaLinux />}
@@ -87,7 +112,7 @@ export const Experience = () => {
         <VerticalTimeline lineColor="#f2f2f2" animate={true}>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            position={"left"}
+            position={"right"}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             iconStyle={{ background: "#f2f2f2", color: "black" }}
             icon={<SiPhp />}
@@ -107,7 +132,7 @@ export const Experience = () => {
         <VerticalTimeline lineColor="#f2f2f2" animate={true}>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            position={"right"}
+            position={"left"}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             iconStyle={{ background: "#f2f2f2", color: "black" }}
             icon={<GrStorage />}
@@ -128,7 +153,7 @@ export const Experience = () => {
         <VerticalTimeline lineColor="#f2f2f2" animate={true}>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            position={"left"}
+            position={"right"}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             iconStyle={{ background: "#f2f2f2", color: "black" }}
             icon={<FaJava />}
@@ -148,7 +173,7 @@ export const Experience = () => {
         <VerticalTimeline lineColor="#f2f2f2" animate={true}>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            position={"right"}
+            position={"left"}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             iconStyle={{ background: "#f2f2f2", color: "black" }}
             icon={<TbBinaryTree />}
