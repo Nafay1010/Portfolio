@@ -5,12 +5,7 @@ import Tenzies_Img from "../assets/project/Tenzies.png";
 import Triform_Img from "../assets/project/Triform.png";
 import Tobre_Img from "../assets/project/Tobre.png";
 import Coffee_Shop_Img from "../assets/project/Coffee_Shop.png";
-import { MdOutlineDateRange } from "react-icons/md";
-import {
-  FaGraduationCap,
-  FaBloggerB,
-  FaChalkboardTeacher,
-} from "react-icons/fa";
+import { FaGraduationCap, FaChalkboardTeacher } from "react-icons/fa";
 import { BiLibrary } from "react-icons/bi";
 import { MdLocalHospital, MdViewModule } from "react-icons/md";
 import { TbMessageChatbot } from "react-icons/tb";
@@ -102,11 +97,11 @@ export const Projects = () => {
               alfa-testing and start exploring the simplicity of AI-integration!
             </h6>
           </div>
-            <img
-              src={Tobre_Img}
-              alt="Tobre"
-              className="my-4 ease-linear rounded-lg"
-            />
+          <img
+            src={Tobre_Img}
+            alt="Tobre"
+            className="my-4 ease-linear rounded-lg"
+          />
           <div className="space-y-2">
             {/* <h6 className="flex items-center text-lg gap-x-1">
               {" "}
@@ -214,7 +209,7 @@ export const Projects = () => {
             </div>
           </a>
           <a
-            href="https://github.com/Nafay1010/Blog-Junction"
+            href="https://github.com/Nafay1010/Law-Specialized-Chatbot"
             target="_blank"
             rel="noreferrer"
           >
@@ -226,7 +221,7 @@ export const Projects = () => {
                 <div className="card-info-wrapper">
                   <div className="card-info">
                     <div className="card-info-title">
-                      <h3>User-Trained Chatbot</h3>
+                      <h3>Law Specialized Chatbot</h3>
                       <h4>
                         Developed using NEXTJS 15 powered by Llama Index & GPT-4
                         Model.

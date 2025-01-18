@@ -19,9 +19,9 @@ function App() {
       <Banner />
       <Skills />
       <MetaCertification/>
-      <Education/>
       <Experience/>
       <Projects/>
+      <Education/>
       <Contact/>
       <Footer/>
       <ToastContainer/>

@@ -39,34 +39,34 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Skill 1" />
-                  <h5>Full Stack Developer</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Skill 2" />
-                  <h5>AI Developer</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Skill 3" />
-                  <h5>Data Analytics</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Skill 4" />
-                  <h5>Python Automation</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Skill 5" />
                   <h5>Project & Team Management</h5>
                 </div>
                 <div className="item">
+                  <img src={meter1} alt="Skill 2" />
+                  <h5>Full Stack Developer</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Skill 3" />
+                  <h5>DevOps</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Skill 4" />
+                  <h5>AI Development</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Skill 5" />
+                  <h5>Data Analytics</h5>
+                </div>
+                <div className="item">
                   <img src={meter1} alt="Skill 6" />
-                  <h5>Leadership</h5>
+                  <h5>Python Automation</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Skill 7" />
-                  <h5>MySQL/NOSQL Database Management</h5>
+                  <h5>Database Management</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Skill 8" />
+                  <img src={meter3} alt="Skill 8" />
                   <h5>Graphic Designing</h5>
                 </div>
               </Carousel>
