@@ -24,7 +24,7 @@ export const Experience = () => {
             marginTop: "50px",
           }}
         >
-          Programming Languages
+          Expertise
         </h1>
         <VerticalTimeline lineColor="#f2f2f2" animate={true}>
           <VerticalTimelineElement
